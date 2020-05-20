@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>..:: Trabalho 1 ::..</title>
+  </head>
+  <body>
+    <div id="controllers">
+      <table>
+        <tr>
+          <td>(R) Vermelho:</td>
+          <td class="coluna">
+            <input
+              type="range"
+              name="redRange"
+              id="redRange"
+              min="0"
+              max="255"
+              value="0"
+              onchange="start();"
+            />
+            <td><input type="text" name="valueR" id="valueR" size="2" /></td>
+          </td>
+        </tr>
+        <tr>
+          <td>(G) Verde:</td>
+          <td class="coluna">
+            <input
+              type="range"
+              name="greenRange"
+              id="greenRange"
+              min="0"
+              max="255"
+              value="0"
+              onchange="start();"
+            />
+            <td><input type="text" name="valueG" id="valueG" size="2"/></td>
+          </td>
+        </tr>
+        <tr>
+          <td>(B) Azul:</td>
+          <td class="coluna">
+            <input
+              type="range"
+              name="blueRange"
+              id="blueRange"
+              size="100px"
+              min="0"
+              max="255"
+              value="0"
+              onchange="start();"
+            />
+            <td><input type="text" name="valueB" id="valueB" size="2" /></td>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="colorExample"></div>
+
+    <p id="ver">Oi</p>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  margin-top: 10rem;
+}
+
+#mainDiv {
+  height: 30rem;
+  width: 30rem;
+  border: 1rem solid;
+  border-color: cadetblue;
+  margin: auto;
+}
+
+#controllers {
+  --height: 5rem;
+  width: 20rem;
+  margin: auto;
+  --margin-left: 35rem;
+  --position: relative;
+}
+
+#colorExample {
+  height: 5rem;
+  width: 5rem;
+  border: 0.1rem solid;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.coluna {
+  vertical-align: bottom;
+}
